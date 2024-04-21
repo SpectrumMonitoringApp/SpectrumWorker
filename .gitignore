@@ -1,0 +1,63 @@
+# Binaries for programs and plugins
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+
+# Output of the go coverage tool, specifically when used with LiteIDE
+*.out
+
+# Project-local glide cache, RE: https://github.com/Masterminds/glide/issues/736
+.glide/
+
+# Dependency directories (remove the comment below to include it)
+# vendor/
+
+# History of vendored Go modules
+vendor/modules.txt
+
+# Go workspace files
+.golangci.yml
+.golangci.toml
+.go-workspace
+
+# Bin directory for Go binaries
+bin/
+
+# Profile output
+profile.out
+
+# JetBrains IDEs
+.idea/
+*.swp
+*.swo
+# Visual Studio Code
+.vscode/
+*.code-workspace
+# Other Visual Studio Code directories
+.history/
+.recovery/
+
+# Mac generated files
+.DS_Store
+
+# Node.js artifacts for projects that may involve frontend components or use Node tooling
+node_modules/
+npm-debug.log
+
+# Miscellaneous
+*.log
+*.tmp
+*.gz
+
+# Certificate files
+*.cert
+*.key
+
+# Linters configured locally
+.linters/
+
+# Environment variables file
+.env
